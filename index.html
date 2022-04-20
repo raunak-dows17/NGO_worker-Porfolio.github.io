@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="hw.jpg">
+    <title>Portfolio 4</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#intro">Hello World!</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigation</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#intro">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Our Contributions
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="#contri1">Contribution in study</a></li>
+                    <li><a class="dropdown-item" href="#contri2">Contribution in food</a></li>
+                    <!-- <li>
+                      <hr class="dropdown-divider">
+                    </li> -->
+                    <li><a class="dropdown-item" href="#contri3">Contribution in smiles</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <!-- <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form> -->
+            </div>
+          </div>
+        </div>
+      </nav>
+    <div class="intro" id="intro">
+      <div class="hii" data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
+        <p class="p1">Hii there!</p>
+        <p class="p2"><span class="our">I'm</span> RAUNAK PANDEY</p>
+        <a href="#about"><button class="about">About me</button></a>
+      </div>
+      <div data-aos="fade-up"
+      data-aos-anchor="#example-anchor"
+      data-aos-offset="500"
+      data-aos-duration="1500">
+        <img src="profile.jpg" alt="sheikh with middle finger" srcset="" class="img-responsive">
+      </div>
+      <div data-aos="fade-left"
+      data-aos-duration="3000">
+        <ul class="social">
+          <li class="li1"><a href="https://facebook.com"><img src="facebook-2935402_640.png" alt="" class="fb"></a></li>
+          <li class="l2"><a href="https://instagram.com"><img src="instagram-3814048_640.png" alt=""class="insta"></a></li>
+          <li class="l3"><a href="https://linkedin.com"><img src="linkedin.png" alt="" class="linkedin"></a></li>
+          <li class="li4"><a href="https://github.com"><img src="github-6980894_640.png" alt="" class="git"></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="absec" id="about" data-aos="zoom-in">
+      <div class="abp3">
+        <h1 class="ab"data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+        data-aos-duration="500">Here's About me!</h1>
+        <p class="p3" data-aos="fade-up"
+        data-aos-duration="900">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, eius nostrum. Ullam nobis autem, voluptatum provident eum harum suscipit repudiandae, adipisci aliquid at dolorum recusandae deleniti. Facilis dignissimos itaque a nemo nam iusto iste provident rem nobis quod! Sequi, quis ratione perferendis, sint aspernatur amet odio voluptatem sit iusto accusamus maiores at error sunt iure molestias nulla earum voluptatibus unde necessitatibus. Odit magni totam, deleniti quas tempora non, debitis placeat adipisci nemo fugit maxime aperiam provident incidunt laboriosam sequi, hic quia accusantium voluptatem optio neque! Optio repellat quibusdam ipsum, sunt provident modi consequatur maiores nobis commodi beatae. Architecto, eaque animi.</p>
+        <a href="#contribution"><button class="know"data-aos="fade-right"
+          data-aos-offset="300">Know More</button></a>
+      </div>
+      <div>
+        <img src="rha.jpeg" alt="" srcset="" class="img1">
+      </div>
+    </div>
+    <div class="contri" data-aos="fade-up"
+    data-aos-duration="3000" id="contri">
+      <div>
+        <h1 class="contribution text-center text-capitalize" id="contribution">
+          <span class="our">Our</span> contributions
+        </h1>
+        <p class="p5 text-center">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed dolores labore at. Optio exercitationem pariatur neque hic aliquid quia voluptate dolorum ipsum non deleniti fuga fugit, aliquam nulla soluta placeat.
+        </p>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" id="contri1">
+              <img src="slide1.jpeg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Contribution In there Study</h5>
+                <p>We provide good education and manners to the children of the slum areas by providing them book, notebooks, pen, pencil, school bags and some time to teach them.</p>
+              </div>
+            </div>
+            <div class="carousel-item" id="contri2">
+              <img src="slide2.jpeg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Providing Food</h5>
+                <p>We Provides food to many children to ensure the good health</p>
+              </div>
+            </div>
+            <div class="carousel-item" id="contri3">
+              <img src="slide3.jpeg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Provides smile</h5>
+                <p>We Provides smile on many of the children.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="wedo">
+      <h1 class="ic text-center text-capitalize"><span class="our">What</span> I do</h1>
+      <p class="para5 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis cumque laboriosam harum maiores est voluptates fugiat animi quasi dicta non quidem distinctio nostrum quia cupiditate, iure quis aut odit eum minus numquam facilis tempore reprehenderit totam asperiores! Eaque perspiciatis ea quaerat! Ipsa amet earum corrupti, eveniet at iste nesciunt dolorum.</p>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col" data-aos="fade-up">
+          <div class="card" >
+            <img src="slide1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">How much I teaches childrens</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sit vitae voluptatibus quibusdam. Libero, cupiditate provident. Cum perspiciatis autem exercitationem</p>
+            </div>
+          </div>
+        </div>
+        <div class="col"data-aos="fade-up"
+        data-aos-duration="1500">
+          <div class="card">
+            <img src="slide2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Food Package I Delivered</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis quibusdam dolore porro a perferendis commodi pariatur fugit vitae nemo ipsum!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col" data-aos="fade-up"
+        data-aos-duration="3000">
+          <div class="card">
+            <img src="slide3.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Help in COVID Period</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, magni! Nulla sint, ab eos corporis totam minima perferendis itaque perspiciatis?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col" data-aos="fade-up">
+          <div class="card">
+            <img src="delhi-covid-22.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Provides Bed To COVID pateints</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, unde praesentium distinctio odio optio voluptatum consequuntur eligendi consectetur nostrum aspernatur?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col" data-aos="fade-up"
+        data-aos-duration="1500">
+          <div class="card">
+            <img src="mvtvi0h_blood-donation_625x300_30_May_19.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Particpates in Blood Donation Camps</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, unde praesentium distinctio odio optio voluptatum consequuntur eligendi consectetur nostrum aspernatur?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col" data-aos="fade-up"
+        data-aos-duration="3000">
+          <div class="card">
+            <img src="depositphotos_26604235-stock-photo-happy-smiles.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Provides Smiles</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, unde praesentium distinctio odio optio voluptatum consequuntur eligendi consectetur nostrum aspernatur?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="foot">
+        <hr>
+        <h1 class="foot1 text-center text-capitalize">Stay Conntected with me!</h1>
+        <div class="social1">
+          <span><a href="https://facebook.com"><img src="facebook-2935402_640.png" alt="" class="fab"></a></span>
+          <span><a href="https://instagram.com"><img src="instagram-3814048_640.png" alt="" class="in"></a></span>
+          <span><a href="https://linkedin.com"><img src="linkedin.png" alt="" class="linked"></a></span>
+          <span><a href="https://github.com"><img src="github-6980894_640.png" alt="" class="github"></a></span>
+        </div>
+        <div class="jb">
+          <a href="#intro" class="Home">Home</a>
+          <a href="#about" class="About">About</a>
+          <a href="#contri" class="More">More</a>
+          <a href="#" class="faq">FAQ's</a>
+        </div>
+        <div class="copyright">
+          <p class="para6">©Copyright iPfly 2022 <span class="ipfly">Site Template by <a href="#" class="ip">iPfly</a></span></p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
