@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.navbar{
+   padding : 0;
+   height: 69px;
+   background-image: linear-gradient(to bottom left, #07426e, #f9a8aa);
+}
+.navbar-toggler:hover{
+    background-color: white;
+    transition: background-color 0.5s;
+}
+.offcanvas, .dropdown-menu{
+    background-color: #e96165;
+    color: #fff;
+    border: 0px;
+}
+.navbar-brand{
+    color: white;
+}
+.dropdown-item:hover{
+    background-color: #e96165;
+    color: #fff;
+}
+.intro{
+    display: flex;
+    padding-top: 69px;
+    padding-left: 119px;
+    background-color: black;
+    height: 1000px;
+}
+.hii{
+    margin-top: 200px;
+    color: #fff;
+}
+.p1{
+    font-size: 25px;
+}
+.p2{
+    font-size: 100px;
+    color: #fff;
+}
+.about{
+    border-color: white;
+    border-radius: 19px;
+    padding: 19px;
+    background-color: black;
+    color: white;
+    transition: background-color 2s;
+    transition: color 1s;
+}
+.about:hover{
+    background-color: white;
+    color: black;
+}
+.img-responsive{
+    padding-top: 69px;
+    padding-left: 10px;
+    height: 569px;
+    width: 300px;
+}
+.social{
+    margin-top: 269px;
+}
+ul{
+    list-style: none;
+}
+.fb, .insta, .linkedin, .git{
+    height: 30px;
+}
+.absec{
+    margin-top: 109px;
+    background-image: linear-gradient(to top left, #07426e, #e96165), url("feeding-baby-elephants-4741820_1920.jpg");
+    background-size: cover;
+    background-position: center;
+    /* border-radius: 100px; */
+    display: flex;
+    padding: 169px;
+}
+.abp3, .contri{
+    color: white;
+}
+.img1{
+    width: 309px;
+    height: 469px;
+    margin-left: 269px;
+}
+.know{
+    border: none;
+    border-radius: 19px;
+    padding: 19px;
+    background-color: #e96165;
+    color: white;
+    transition: background-color 2s;
+    transition: color 1s;
+}
+.contri{
+    padding: 10%;
+    color: black;
+    background-color: white;
+}
+.our{
+    color:#e96165;
+}
+.d-block{
+    height: 700px;
+}
+.wedo{
+    padding-top: 169px;
+}
+.ic{
+    font-size: 69px;
+    color : white;
+}
+.row{
+    width: 100%;
+}
+.para5{
+    padding: 69px;
+    color : white;
+}
+.card-img-top{
+    height: 300px;
+}
+.row{
+    padding: 69px;
+}
+.card{
+    background-image: linear-gradient(to bottom left, #07426e, #f9a8aa);
+    color: white;
+}
+.foot{
+    color: white;
+}
+.fab{
+    width: 30px;
+    margin-left: 43%;
+}
+.in, .linked, .github{
+    width: 30px;
+    margin-left: 15px;
+}
+footer{
+    padding: 100px;
+    padding-bottom: 0;
+    background-color: black;
+}
+.jb{
+    padding: 69px;
+    margin-left: 33%;
+}
+.Home, .About, .More, .faq{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+.Home:hover, .About:hover, .More:hover, .faq:hover, .ip:hover{
+    color: white;
+}
+.para6{
+    margin-left: 35%;
+}
+.ipfly{
+    margin-left: 69px;
+}
+.ip{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width: 1280px) {
+    .navbar{
+        max-width: auto;
+        height: 99px;
+    }
+    .intro{
+        margin-left: 15px;
+        /* margin-bottom: 500px; */
+        max-width: auto;
+        max-height: 1366px;
+        padding-left:0; 
+    }
+    .p1{
+        text-align: center;
+        font-size: 29px;
+    }
+    .p2{
+        text-align: center;
+        font-size: 100px;
+    }
+    .about{
+        margin-left: 180px;
+    }
+    .img-responsive{
+        display: none;
+    }
+    .ab{
+        font-size: 49px;
+    }
+    .p3{
+        font-size: 23px;
+    }
+    .absec{
+        /* margin-top: 500px; */
+        max-width: 100%;
+        height: 1024px;
+        padding: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .img1, .social{
+        display: none;
+    }
+    .contri{
+        width: auto;
+        height: 1366px;
+    }
+    .p5{
+        padding-bottom: 169px;
+    }
+    .row{
+        width: auto;
+    }
+    .col{
+        width: 440px;
+    }
+    .ic{
+        width: auto;
+    }
+    .para5{
+        width: auto;
+    }
+    .fab{
+        margin-left: 300px;
+    }
+    footer{
+        width: auto;
+        /* padding-right: 0;
+        padding-left: 0; */
+    }
+    .fab{
+        margin-left: 69px;
+    }
+    .jb{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .para6{
+        margin-left: 0;
+    }
+    .ipfly{
+        margin-left: 19px;
+    }
+}
+@media screen and (max-width: 480px){
+   .navbar{
+        height: 69px;
+        position: relative;
+   }
+   .intro{
+       max-width: auto;
+       max-height: 812px;
+       position: relative;
+       padding-left: 0;
+   }
+   .p1{
+       font-size: 29px;
+       max-width: 480px;
+       position: relative;
+   }
+   .p2{
+       font-size: 69px;
+       max-width: 400px;
+       position: relative;
+       margin-right: 30px;
+   }
+   .about{
+       margin-right: 90px;
+       margin-left: 90px;
+   }
+   .absec{
+       position: relative;
+       max-width: auto;
+       max-height: 836px;
+       padding: 10px;
+   }
+   .absec{
+       width: auto;
+   }
+   .p3{
+       font-size: 15px;
+   }
+   .know{
+       display: none;
+   }
+   .carousel-item{
+        width: auto;
+   }
+   .contri{
+       padding-left: 5px;
+       padding-right: 5px;
+   }
+   .row{
+    padding-left: 5px;
+    padding-right: 5px;
+   }
+   footer{
+       padding-left: 0;
+       padding-right: 0;
+   }
+   .social1{
+       align-items: center;
+   }
+   .jb{
+       margin-left: 25px;
+       align-items: center;
+   }
+   .para6{
+       margin-left: 17px;
+   }
+}
